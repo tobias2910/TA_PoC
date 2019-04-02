@@ -1,0 +1,125 @@
+{
+    "name": "TravelExpense",
+    "description": "",
+    "services": [
+        {
+            "type": "luis",
+            "appId": "64d0090e-d192-4937-aed2-40444303281f",
+            "authoringKey": "T5LAoRxNfRFMk++bzxhN2A==!BXjPNevC7jZ1DPEJZ0TIiZQWUkPoEHbW/Ybj0UAwhZF/GPtW+/mzMvpRteCISbAV",
+            "id": "124",
+            "name": "luis_de",
+            "region": "francecentral",
+            "subscriptionKey": "SN+0MoHLU6Yecdz68keNkw==!aXe33tKEYBMmsanJgg4V81822+hK/dSXlVg11UumYEiLj7C68Ztl1MUOrXlyTp+r",
+            "version": "0.1"
+        },
+        {
+            "type": "qna",
+            "endpointKey": "m3fFdPpa9YkH3Amuzc3kMQ==!8MuZz2Q+V4jNZWugp/h5woyezpEkSv6oa2EbWOo01/2EMK7caHv4U5ocbOUNZ54c",
+            "hostname": "https://kbma.azurewebsites.net/qnamaker",
+            "id": "104",
+            "kbId": "752c1a78-0b79-4dac-a4ce-9377d9decab5",
+            "name": "qna_de",
+            "subscriptionKey": "Zkg+MVm0p7eBC5pb2oC06Q==!ZTFVrbX72woJ9iX/Wd21B2prWW6FgjgWLmbnVPXJXAddt82PspnW9bOtrN7ZkXix"
+        },
+        {
+            "type": "qna",
+            "endpointKey": "lbVaVVYIcyKU3afrWqkvxQ==!zZHVncu2KL3NUNJwgYmzufjgr3hQSSWEs6SXkyDUqrNiEBc41K0KXYALWsmcmAJS",
+            "hostname": "https://kbma.azurewebsites.net/qnamaker",
+            "id": "89",
+            "kbId": "9f4a98f4-da4a-402c-95c9-4685c0e9d693",
+            "name": "chitchat_de",
+            "subscriptionKey": "wgU1/OASxZKUepTzrwQ5XQ==!FZoOGXze+sTXVPbJOJPe2lCTtqDb+5ZOl6+3bWvGB64r0nX7/H+3GBZLoSbw1Mmt"
+        },
+        {
+            "type": "blob",
+            "connectionString": "Rc5ovE+PNb2ITIEpjYeVsQ==!yh/97jad6BzvDhEMnnuw4NFZzn/0cmfHfRh5VcV9iHypKEJwqUSssz7FayBPGSEudH5UW76lbIjbUR+zzSZ/wyDHnemHwytZH3vusEGhyzvIKT8TLLJVTK8wn7FlZZY4Rl5zJQ6KxBflLCar5pt/EY4w+0hYd+VQ2rSpPPGCq+n4x9p8kdCxsx+Whp/xKs5fZSOJWTUGpS0NRn+8bhf6m5oHciddqp9AAA7DMzpia2GW6GA5lBPocSEAOIJR3c32",
+            "container": "expensebot",
+            "id": "244",
+            "name": "blob",
+            "serviceName": "travelexpense"
+        },
+        {
+            "type": "generic",
+            "configuration": {
+                "authoringKey": "YqAwLMZJLExqtSCLtxDTQA==!9Bj/YmYCBr2e9tYb/PUHaQ9/92EdnMCJ2VhS8q61dX2cR66Lm6iLmkO6iafA1EMk"
+            },
+            "id": "222",
+            "name": "faceAPI",
+            "url": "https://francecentral.api.cognitive.microsoft.com/face/v1.0/"
+        },
+        {
+            "type": "generic",
+            "configuration": {
+                "password": "2C138VR1O4rvSztd/yy4GA==!3JphTPKhrzRfSiqY/EzKQQ==",
+                "tenant": "3PShECv9ICJZa08nfF6K7w==!JeWddFzEJxelOXVdK0IfSQ==",
+                "username": "scFTjLlcwuuXfuuXu4YjbQ==!f6VDzsez73b5pYaBSn6ZxYGx8Z2DVbYTz9aZrzjayO4="
+            },
+            "id": "108",
+            "name": "uiPath",
+            "url": "https://platform.uipath.com/"
+        },
+        {
+            "type": "generic",
+            "configuration": {
+                "authoringKey": "Re8bccJJUfH1HCEvIYdZ9Q==!+pDe9jKxy/KuC+4PjXzYGhDDUxlTADnA/VENfvWR3pVQNPzS0kfgLmYSAl2hPGAe"
+            },
+            "id": "134",
+            "name": "customVision",
+            "url": "https://northeurope.api.cognitive.microsoft.com/customvision/v1.1/Prediction/4999de51-8eeb-4b80-a3be-8eb046c7ca79/image?iterationId=479bee75-5773-4267-b5ca-1c2a690e2ec0"
+        },
+        {
+            "type": "generic",
+            "configuration": {
+                "database": "fa9NJmaZQ+9RA+HLg+Cjcg==!NvgFMPz9KfZODCmbtkSgIA==",
+                "password": "LT9xW4Q4Xyq0cUgq4+zkEw==!5Qh0agsT+Ui+oWIvNcv22Q==",
+                "user": "ma9m+A23ruvSlPbJLX/vGw==!W5jwPj41jnRXFQb6t4GvBg=="
+            },
+            "id": "26",
+            "name": "mySQL",
+            "url": "localhost"
+        },
+        {
+            "type": "generic",
+            "configuration": {
+                "authoringKey": "FbFa5A1AHyxaf+w5xsKfVA==!4QgAO/JXWXLNNRkVKrUK4zrhtMqmFgpBA9zMieK7dySWAjOpPa40e8Er6qCCUAvR"
+            },
+            "id": "183",
+            "name": "docparser",
+            "url": "https://api.docparser.com/v1/"
+        },
+        {
+            "type": "dispatch",
+            "appId": "62ba4c43-708a-4996-9681-4442870e2722",
+            "authoringKey": "xadCUAhLzArj7BS6oLslgg==!RUBRKu1+S4D++s6YvVVw0iPKcKNcESyW0K+QfCmgpMQc9V30lUL9athN3c+51sn7",
+            "id": "114",
+            "name": "dispatch",
+            "region": "francecentral",
+            "serviceIds": [
+                "124",
+                "104",
+                "89"
+            ],
+            "subscriptionKey": "ynOGWxgshEobCdlA9uLxLA==!EzakXuYHZPEcVvqJjrVOkqdwrW8SiM69Q52Io6fDAcs7erytHGkfx3J8vOGLhPyz",
+            "version": "0.1"
+        },
+        {
+            "type": "endpoint",
+            "endpoint": "http://localhost:3978/api/messages",
+            "name": "TravelExpense",
+            "id": "249"
+        },
+        {
+            "type": "generic",
+            "name": "bing",
+            "url": "https://api.cognitive.microsoft.com/bing/v7.0/search",
+            "configuration": {
+                "authoringKey": "Asb1wc7JHGN8ITfTM2xrqg==!xKrqQUG4kNNDhHfMUFRUasiQO5RW/LawMyGLRcojOKfgDObYRzhv6PNtQLC3j/v5"
+            },
+            "id": "254"
+        }
+    ],
+    "padlock": "fVlENbsSlrPWzYrwp0lZ/Q==!AFGnFw/Iww/gEU2zXI6elZdHPGfnCZ0YJ3dhrPuMJbd/0upUGxrU4UVm2vimaqmc",
+    "version": "2.0",
+    "overrides": null,
+    "path": "C:\\Users\\tcaliska\\Privat\\TravelExpense\\TravelExpense.bot"
+}

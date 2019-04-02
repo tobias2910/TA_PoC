@@ -1,0 +1,27 @@
+{
+    "defaultSeverity": "error",
+    "extends": [    
+        "tslint:recommended",
+        "tslint-microsoft-contrib"
+    ],
+    "linterOptions": {
+        "exclude": [
+            "src/dialogs/shared/resources/*"
+        ]
+    },
+    "rules": {
+        "function-name": [ true,
+            {
+                "static-method-regex":"^[a-z][\\w\\d]+$"
+            }
+        ],
+        "eofline": [false],
+        "no-backbone-get-set-outside-model": [false],
+        "no-floating-promises": [false],        
+        "no-return-await": [false],
+        "strict-boolean-expressions": [false],
+        "linebreak-style": [false],
+        "member-ordering": [false],
+        "no-relative-imports": [false]
+    }
+}

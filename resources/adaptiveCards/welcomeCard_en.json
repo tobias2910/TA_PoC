@@ -1,0 +1,49 @@
+{   
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.0",
+    "type": "AdaptiveCard",
+    "body": [
+        {
+            "type": "Container",
+            "items": [
+                {
+                    "type": "TextBlock",
+                    "id": "title",
+                    "horizontalAlignment": "center",
+                    "size": "large",
+                    "weight": "bolder",
+                    "text": "Travel expense assistant"
+                },
+                {
+                    "type": "Image",
+                    "id": "image",
+                    "horizontalAlignment": "Center",
+                    "url": "https://img.icons8.com/nolan/96/000000/sun.png",
+                    "size": "medium"
+                }
+            ]
+        },
+        {
+            "type": "TextBlock",
+            "id": "greetingLbl",
+            "text": "Hello my little sunshine,\nI am your personal assistant for claiming reimbursement of your travel expenses. What can I help you with today?",
+            "wrap": true
+        }
+    ],
+    "actions": [
+        {
+			"type": "Action.Submit",
+            "title": "Reimburse travel expenses",
+            "data": {
+                "action": "travelExpense"
+            }
+        },
+        {
+			"type": "Action.Submit",
+            "title": "Help",
+            "data": {
+                "action": "help"
+            }
+        }
+    ]
+}

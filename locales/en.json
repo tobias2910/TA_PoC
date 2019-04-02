@@ -1,0 +1,84 @@
+{
+	"general": {
+		"luisApp": "luis_en",
+		"qnaKb": "qna_en"
+	},
+	"welcomeCard": {
+		"path": "../../../resources/adaptiveCards/welcomeCard_en.json"
+	},
+	"authent": {
+		"facePrompt": "Please upload a photo of your face for authorization.",
+		"wrongType": "I need a real photo of you :)",
+		"faceNA": "I couldn't recognize a face :(.",
+		"repromptFace": "Please try another photo if possible.",
+		"notInPersGrp": "I'm afraid I couldn't find you in my database.",
+		"notInDb": "I don't seem to have you in my database yet.",
+		"registPrompt": "Please contact your manager.",
+		"greetingWithName": "Hello {0} {1}!",
+		"passwordInfo": "Before we can proceed, I'll need your security password.",
+		"passwordPrompt": "What's it called?",
+		"thanks": "Thank you {0}",
+		"confirm": "We can now proceed with your refund request.",
+		"wrongPw": "Unfortunately the password is not correct.",
+		"repromptPw": "Please try again."
+	},
+	"main": {
+		"askForHelp": "How else can I help you?",
+		"notUnderstand": "Unfortunately, I can't understand that (yet).",
+		"cancelDialog": "The operation was canceled.",
+		"noCancelDialog": "There is no dialog to cancel."
+	},
+	"expenses": {
+		"validateLng": "en-en",
+		"projectNrPrompt": "Please give me the project number",
+		"choiceNr1": "Kunde",
+		"choiceNr2": "AKQ",
+		"choiceNr3": "Ausbildung",
+		"choiceNr4": "Intern",
+		"travelOccasion": "Please tell me the reason for the journey",
+		"travelAdress": "Please give me the address of the destination.",
+		"departDate": "Please tell me the date of departure.",
+		"returnDate": "Please tell me the date of my return.",
+		"summaryTitel": "Thank you {0}, I have now received the following data from you:",
+		"summary": "* Employeenr.: {0}\n* Projectnr.: {1}\n* Reason for travel: {2}\n* Destination: {3}\n* Departure: {4}\n* Return: {5}",
+		"confirmSum": "Is the data correct?",
+		"continue": "Well, let's move on then.",
+		"receiveInfo": "I also need proof of invoice.",
+		"restart:": "All right. Let's start again.",
+		"uploadPrompt": "Please upload it.",
+		"thxReceive": "Thank you.",
+		"recognizing": "I am currently trying to identify the necessary data.",
+		"receiveSummary": "I recognized the following data:\n* Invoice type: {0}\n* Invoice issuer: {1}\n* Invoice data: {2}\n* Invoice amount: {3} €",
+		"receiveOk": "Is the recognized data correct?",
+		"addReceive": "Would you like to pass me another invoice?",
+		"tryAgain": "Let's try again then.",
+		"again": "All right.",
+		"finish1": "I'll start transferring the data then.",
+		"finish2": "You will receive a notification by mail as soon as I am through with it."
+	},
+	"farewell": {
+		"number1": "Farewell",
+		"number2": "Ciao",
+		"number3": "Goodbye",
+		"number4": "Bye"
+	},
+	"greeting": {
+		"number1": "Hello ",
+		"number2": "Hey ",
+		"number3": "Yo ",
+		"number4": "Hi "
+	},
+	"help": {
+		"optionNr1": "What function do you have?",
+		"optionNr2": "How can I reimburse travel expenses?",
+		"optionNr3": "How does authentication take place?",
+		"optionNr4": "What types of travel expenses are there?",
+		"helpPrompt": "What can I help you with?",
+		"textNr1": "I'm here to assist you with the reimbursement of your travel expenses.",
+		"textNr2:": "To get travel expenses reimbursed, you must first authenticate yourself. Then you can send me the general information about your business trip. In the last step it is necessary to give me a receipt for the costs. ",
+		"textNr3": "To authenticate yourself, you must first upload a photo of yourself. If I find you in my database, I need your personal password. This process is only necessary once per session.",
+		"textNr4": "There are a total of three types of travel expenses:\n* Invoices for flights\n* Invoices for hotel accommodation\n* Invoices for transfers",
+		"default": "What?!?"
+	},
+	"notUnderstand": "notUnderstand"
+}

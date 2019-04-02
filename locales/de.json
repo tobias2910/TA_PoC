@@ -1,0 +1,95 @@
+{
+	"general": {
+		"luisApp": "luis_de",
+		"qnaKb": "qna_de"
+	},
+	"welcomeCard": {
+		"path": "../../../resources/adaptiveCards/welcomeCard_de.json"
+	},
+	"cancel": {
+		"prompt": "Bist du dir sicher, dass du die Aktion abbrechen möchtest?",
+		"confirmed": "Die Aktion wurde abgebrochen",
+		"denied": "Die Aktion wird nicht abgebrochen."
+	},
+	"authent": {
+		"facePrompt": "Bitte lade zur Autorisierung ein Foto deines Gesichts hoch.",
+		"wrongType": "Ich benötige schon ein Foto :)",
+		"faceNA": "Ich konnte kein Gesicht erkennen :(.",
+		"repromptFace": "Bitte versuche es evtl. mit einem anderen Foto.",
+		"notInPersGrp": "Ich konnte dich in meiner Datenbank leider nicht finden.",
+		"notInDb": "Es scheint als hätte ich dich noch nicht in meiner Datenbank.",
+		"registPrompt": "Bitte wende dich an deinen Manager.",
+		"greetingWithName": "Hallo {0}!",
+		"passwordInfo": "Bevor wir fortfahren können, benötige ich noch dein Sicherheitspasswort.",
+		"passwordPrompt": "Wie lautet es?",
+		"thanks": "Vielen Dank {0}",
+		"confirm": "Wir können nun mit der Beantragung deiner Erstattung fortfahren.",
+		"wrongPw": "Leider stimmt das Password nicht.",
+		"repromptPw": "Bitte versuche es nochmal."
+	},
+	"main": {
+		"askForHelp": "Wie kann ich dir sonst noch behilflich sein?",
+		"notUnderstand": "Das kann ich leider (noch) nicht verstehen.",
+		"cancelDialog": "Der Vorgang wurde abgebrochen.",
+		"noCancelDialog": "Es ist kein Dialog zum abbrechen vorhanden."
+	},
+	"expenses": {
+		"validateLng": "de-de",
+		"projectNrPrompt": "Bitte nenne mir die Projektnummer",
+		"choiceNr1": "Kunde",
+		"choiceNr2": "AKQ",
+		"choiceNr3": "Ausbildung",
+		"choiceNr4": "Intern",
+		"travelOccasion": "Bitte nenne mir den Grund der Reise",
+		"travelAdress": "Bitte nenne mir die Anschrift des Reiseziels.",
+		"departDate": "Bitte nenne mir das Abreisedatum.",
+		"returnDate": "Bitte nenne mir das Rückreisedatum.",
+		"summaryTitel": "Danke {0}, ich habe nun nachfolgende Daten von dir erhalten:",
+		"summary": "* Mitarbeiternr.: {0}\n* Projektnr.: {1}\n* Reisegrund: {2}\n* Reiseziel: {3}\n* Abfahrt: {4}\n* Rückfahrt: {5}",
+		"confirmSum": "Sind die Daten korrekt?",
+		"continue": "Gut, dann lass uns fortfahren.",
+		"receiveInfo": "Ich benötige noch einen Rechnungsnachweis.",
+		"restart:": "In Orndung. Lass uns nochmal beginnen.",
+		"uploadPrompt": "Bitte lade es hoch.",
+		"thxReceive": "Vielen Dank.",
+		"recognizing": "Ich versuche im Moment die notwendigen Daten zu erkennen.",
+		"receiveSummary": "Ich habe folgende Daten erkannt:\n* Rechnungstyp: {0}\n* Rechnungsaussteller: {1}\n* Rechnungsdatum: {2}\n* Rechnungssumme: {3} €",
+		"receiveOk": "Sind die erkannten Daten korrekt?",
+		"addReceive": "Möchtest du mir eine weitere Rechnung übergeben?",
+		"tryAgain": "Lass es uns dann erneut versuchen.",
+		"again": "In Ordnung.",
+		"finish1": "Ich werde dann damit beginnen die Daten zu übertragen.",
+		"finish2": "Du wirst per Mail eine Benachrichtigung erhalten, sobald ich damit durch bin.",
+		"receivySummary": "expenses.receivySummary"
+	},
+	"farewell": {
+		"amount": 4,
+		"number1": "Auf Wiedersehen",
+		"number2": "Ciao",
+		"number3": "Tschüssi",
+		"number4": "Bye",
+		"withName": "Auf wiedersehen {0}"
+	},
+	"greeting": {
+		"amount": 4,
+		"number1": "Hallo",
+		"number2": "Hey",
+		"number3": "Na",
+		"number4": "Hi",
+		"withName": "Hallo {0}"
+	},
+	"help": {
+		"title": "Hilfe",
+		"text": "Womit kann ich dir helfen?",
+		"optionNr1": "Welche Funktionen hast?",
+		"optionNr2": "Wie kann ich Reisekosten erstatten?",
+		"optionNr3": "Wie erfolgt die Authentisierung?",
+		"optionNr4": "Welche Typen von Reisekosten gibt es?",
+		"helpPrompt": "Womit kann ich dir helfen?",
+		"textNr1": "Ich bin dafür da, dich bei der Erstattung deiner Reisekosten zu unterstützen.",
+		"textNr2": "Für die Erstattung von Reisekosten musst du dich zunächst authentifizieren. Anschließend kannst du mir die Allgemeinen Infos deine Geschäftsreise mitteilen. Im letzten Schritt ist es erforderlich, mir einen Beleg für die Kosten zu übergeben.",
+		"textNr3": "Um dich zu authentifizieren, musst du zunächst ein Foto von dir hochladen. Sollte ich dich in meiner Datenbank finden, benötige ich dein persönliches Passwort. Dieser Vorgang ist pro Sitzung nur einmal erforderlich.",
+		"textNr4": "Es gibt insgesamt drei Typen von Reisekosten:\n* Rechnungen für Flüge\n* Rechnungen für Hotelübernachtungen\n* Rechnungen für den Transfer",
+		"default": "Was?!?"
+	}
+}

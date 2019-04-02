@@ -1,0 +1,54 @@
+{
+  "name": "ta_poc",
+  "version": "1.0.0",
+  "description": "New version of the TA PoC using the EnterpriseTemplate",
+  "main": "lib/index.js",
+  "scripts": {
+    "prebuild": "npm run lint",
+    "lint": "tslint -t vso ./src/**/*.ts"
+  },
+  "dependencies": {
+    "applicationinsights": "^1.2.0",
+    "botbuilder": "^4.3.2",
+    "botbuilder-ai": "^4.3.2",
+    "botbuilder-azure": "^4.3.2",
+    "botbuilder-core": "^4.3.2",
+    "botbuilder-dialogs": "^4.3.2",
+    "botframework-config": "^4.3.2",
+    "botframework-schema": "^4.3.2",
+    "docparser-node": "^1.2.2",
+    "documentdb": "^1.15.3",
+    "dotenv": "^7.0.0",
+    "i18n": "^0.8.3",
+    "mysql": "^2.16.0",
+    "request": "^2.88.0",
+    "restify": "^7.2.3"
+  },
+  "devDependencies": {
+    "@types/dotenv": "^6.1.0",
+    "@types/i18n": "^0.8.5",
+    "@types/mysql": "github:types/mysql",
+    "@types/restify": "^7.2.9",
+    "nodemon": "^1.18.10",
+    "tslint": "^5.14.0",
+    "tslint-microsoft-contrib": "^6.1.0",
+    "typescript": "^3.3.4000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tobias2910/TA_PoC.git"
+  },
+  "keywords": [
+    "Botframework",
+    "ipa",
+    "azure",
+    "travel",
+    "expense"
+  ],
+  "author": "Tobias Caliskan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tobias2910/TA_PoC/issues"
+  },
+  "homepage": "https://github.com/tobias2910/TA_PoC#readme"
+}

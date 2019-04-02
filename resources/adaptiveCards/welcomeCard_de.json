@@ -1,0 +1,49 @@
+{   
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.0",
+    "type": "AdaptiveCard",
+    "body": [
+        {
+            "type": "Container",
+            "items": [
+                {
+                    "type": "TextBlock",
+                    "id": "title",
+                    "horizontalAlignment": "center",
+                    "size": "large",
+                    "weight": "bolder",
+                    "text": "Reisekosten-Assistent"
+                },
+                {
+                    "type": "Image",
+                    "id": "image",
+                    "horizontalAlignment": "Center",
+                    "url": "https://img.icons8.com/nolan/96/000000/sun.png",
+                    "size": "Medium"
+                }
+            ]
+        },
+        {
+            "type": "TextBlock",
+            "id": "greetingLbl",
+            "text": "Hallo meine kleine Sonne,\nich bin dein persönlicher Assistent für die Beantragung einer Erstattung deiner Reisekosten. Womit kann ich dir heute helfen?",
+            "wrap": true
+        }
+    ],
+    "actions": [
+        {
+			"type": "Action.Submit",
+            "title": "Reisekosten erstatten",
+            "data": {
+                "action": "travelExpense"
+            }
+        },
+        {
+			"type": "Action.Submit",
+            "title": "Hilfe",
+            "data": {
+                "action": "help"
+            }
+        }
+    ]
+}

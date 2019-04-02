@@ -1,0 +1,60 @@
+{
+  "urls": [],
+  "qnaList": [
+    {
+      "id": 0,
+      "answer": "Ja, ich bin besser",
+      "source": "custom editorial",
+      "questions": [
+        "Kennst du Siri?",
+        "Kennst du Cortana?"
+      ],
+      "metadata": []
+    },
+    {
+      "id": 0,
+      "answer": "Manchmal, glaube ich das.",
+      "source": "custom editorial",
+      "questions": [
+        "Bist du schlauer als ich?",
+        "Bist du schlauer?",
+        "Bist du intelligenter?"
+      ],
+      "metadata": []
+    },
+    {
+      "id": 0,
+      "answer": "Dafür solltest du lieber meinen Kollegen den Wetter-Assistenten fragen",
+      "source": "custom editorial",
+      "questions": [
+        "Wie ist das Wetter heute?"
+      ],
+      "metadata": []
+    },
+    {
+      "id": 0,
+      "answer": "Kein Problem",
+      "source": "custom editorial",
+      "questions": [
+        "Vielen Dank für deine Hilfe?",
+        "Danke dafür?",
+        "Danke?"
+      ],
+      "metadata": []
+    },
+    {
+      "id": 0,
+      "answer": "5 von 6 Personen finden russisches Roulette völlig ungefährlich.",
+      "source": "custom editorial",
+      "questions": [
+        "Erzähl mir ein Witz?",
+        "Kennst du Witze?",
+        "Hast du ein Witz auf lager?",
+        "Kannst du mir was witziges erzählen?"
+      ],
+      "metadata": []
+    }
+  ],
+  "files": [],
+  "name": "chitchat"
+}
