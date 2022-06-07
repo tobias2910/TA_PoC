@@ -155,7 +155,7 @@ export class UiPath extends GenericService {
      * Wandelt sämtliche Daten der übergebenen Rechnung in einen String um und
      * fügt dabei vor jeden Anführungszeichein zwei Backslashes hinzu
      *
-     * @param invoiceArray - Heroin
+     * @param invoiceArray
      */
     private serializeInvoiceData(invoiceArray: IInvoiceData[]): string {
         let tempData: string = JSON.stringify(invoiceArray);
